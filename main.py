@@ -243,4 +243,101 @@ print(f"my name is {name} and my age is {age}")
 # elif temp >30 and temp<=40:
 #     print("hot ") 
 # elif temp > 40 :
-#     print("very hot")            
+#     print("very hot") 
+
+#questions on loops
+
+# n=int(input("enter a number:-"))   
+# for i in range(1,n+1):    
+#     print(i)  
+ 
+# n=int(input("enter a number :-"))
+# for i in range(n,0,-1):
+#     print(i)
+
+# a=int(input("enter a number:-"))
+# for i in range(a,(a*10)+1,a):
+#     print(i)
+
+# n=int(input("enter a number:-"))
+# sum=0
+# for i in range(1,n+1):
+#    sum=sum+i
+# print(sum)   
+
+# n=int(input("enter a number:-"))
+# fact=1
+# for i in range(n,0,-1):
+#     fact=fact*i
+# print(fact)    
+
+# n=int(input("enter a number:-"))
+# sum=0
+# for i in range(0,n+1,2):
+#     sum=sum+i
+# print(sum)    
+
+# sum=0
+# for i in range(1,n+1,2):
+#     sum=sum+i
+# print(sum)    
+
+# n=int(input("enter a number:-"))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+
+#n=int(input("enter a number:-"))
+# sum=0
+# for i in range(1,n,1):
+#     if n%i==0:
+#         sum=sum +i
+# if sum==n:
+#     print("perfect number")        
+# else:
+#     print("not a perfect number")    
+
+
+# n=int(input("enter a number:-"))
+# if n==1:
+#     print("neither prime nor composite ")
+# elif n==2:
+#     print("prime number")    
+# else:
+#     for i in range(2,n,1):
+#         if n%2==0:
+#             print("not a prime number")
+#             break
+#         else:
+#             print("prime number")
+#             break
+
+
+# s="hello everyone"
+# for i in range(len(s)-1,-1,-1):
+#   print(s[i])
+    
+# s="ababa"
+# rev=""
+# for i in range(len(s)-1,-1,-1):
+#     rev=rev+s[i]
+# if s==rev:
+#     print("string is palindrome")
+# else:
+#     print("string is not palindrome")    
+
+s="prateekkushwaha056@gmail.com" 
+digit=0
+char=0
+spchr=0
+for i in s:
+    if i.isdigit():
+        digit=digit+1
+    elif i.isalpha():
+        char=char+1
+    else:
+        spchr=spchr+1
+print("number of digit, char, and special characters:-")
+print("digit:- ",digit) 
+print("char:-",char) 
+print("spchr:-",spchr)            
