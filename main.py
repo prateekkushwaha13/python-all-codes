@@ -326,18 +326,127 @@ print(f"my name is {name} and my age is {age}")
 # else:
 #     print("string is not palindrome")    
 
-s="prateekkushwaha056@gmail.com" 
-digit=0
-char=0
-spchr=0
-for i in s:
-    if i.isdigit():
-        digit=digit+1
-    elif i.isalpha():
-        char=char+1
-    else:
-        spchr=spchr+1
-print("number of digit, char, and special characters:-")
-print("digit:- ",digit) 
-print("char:-",char) 
-print("spchr:-",spchr)            
+# s="prateekkushwaha056@gmail.com" 
+# digit=0
+# char=0
+# spchr=0
+# for i in s:
+#     if i.isdigit():
+#         digit=digit+1
+#     elif i.isalpha():
+#         char=char+1
+#     else:
+#         spchr=spchr+1
+# print("number of digit, char, and special characters:-")
+# print("digit:- ",digit) 
+# print("char:-",char) 
+# print("spchr:-",spchr)     
+
+#while loop
+
+# num=int(input("enter a number:-"))
+
+# while num!=0:
+#     print(num%10)
+#     num=int(num/10)    # num=num//10
+     
+
+
+# num=int(input("enter a number:-"))
+# old_num=num
+# rev=0
+# while num!=0:
+#       n=num%10
+#       rev=rev*10+n
+#       num=int(num/10)   # or num=num//10
+# print("reverse of number is:-",rev)      
+# if old_num==rev:
+#       print("number is palindrome")
+# else:
+#       print("not a palindrome")      
+
+
+# fuctions 
+# def hello():
+#     print("hello my name is prateek")
+# hello()
+
+#positional argument
+# def intro(name, age):
+#     print(f"my name is {name} and my age is {age}")
+# intro("prateek",22)    
+    
+#keyword argument
+# def intro(name,age):
+#     print(f"my name is {name} and my age is {age}")
+# intro(age=21, name="prateek")
+
+#default argument
+# def intro(name,age=21):
+#     print(f"my name is {name} and my age is {age}")
+# intro("prateek")
+
+
+#list 
+
+# list=[41,-34,443,-532,-432,52]
+# positive=0
+# negative=0
+# print("positive numbers are:- ")
+# for i in range(len(list)):
+#   if list[i]>0:
+#     print(list[i])
+  
+# print("negative numbers are:-")  
+# for i in range(len(list)):
+#   if list[i]<0:
+#     print(list[i])
+
+list=[764,76,348,987,49,45,874]
+# sum=0
+# for i in range(len(list)):
+#     sum=sum+list[i]
+# mean=sum/len(list)    
+# print(mean)
+
+# largest=0
+# for i in range(len(list)):
+#     if list[i]>largest:
+#         largest=list[i]
+# print(largest) 
+
+# largest=0
+# second_largest=0
+# for i in range(len(list)):
+#     if list[i]>largest:
+#         largest=list[i]
+#     elif list[i]>second_largest:
+#         second_largest=list[i]
+    
+# print(f"largest number is {largest} and second largest number is {second_largest}")        
+
+# exception handling
+
+# a=int(input("enter a number:- "))
+# try:
+    
+#     res=print(20/a)
+
+
+# except ZeroDivisionError:
+#     print("sorry you cant divide by 0")
+
+# else:
+#     print("result  is {res}")
+# finally:
+#     print("execution complete")   
+
+a=int("prateek")
+
+try:
+
+    res=1/a
+except ValueError :
+    print("enter a valid number: ")    
+
+

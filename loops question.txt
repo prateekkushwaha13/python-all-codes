@@ -1,3 +1,5 @@
+------------------for loop questions----------------
+
 Print natural number up to n
 Reverse for loop. Print n to 1
 Take a number as input and print its table
@@ -17,3 +19,19 @@ Total counts of chars, digits, and symbols
 Chars = 8 
 Digits = 3 
 Symbol = 4
+
+---------while loop questioons-----------
+
+Separate each digit of a number and print it on the new line
+Accept a number and print its reverse
+Accept a number and check if it is a pallindromic number (If 
+number and its reverse are equal
+Create a random number guessing game with python
+
+
+-------------List --------------------
+Print positive and negative elements of an List
+Mean of List elements
+Find the greatest element and print its index too
+Find the second greatest element
+Check if List is sorted or not
